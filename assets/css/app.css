@@ -67,9 +67,18 @@ a {
   text-shadow: 2px 2px #fff;
 }
 
-.hero .navbar {
+.navbar, .navbar-menu {
     /* background-color: #fef1da; */
     background-color: #fef5e5;
+}
+
+a.navbar-item:hover {
+  background-color: #fef5e5;
+  text-decoration: underline;
+}
+
+.navbar-item {
+  padding: 0 1rem;
 }
 
 .about > p {
@@ -91,3 +100,18 @@ a {
 .photos-subtitle {
   margin-bottom: 1.5rem;
 }
+
+@media (max-width: 1024px) {
+
+  .my-nav {
+    margin: 0;
+  }
+ }
+
+ @media (max-width: 512px) {
+   .hero-body {
+     margin: 0;
+     box-shadow: 0px;
+     border-radius: 0px;
+   }
+  }
