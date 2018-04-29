@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dirty Pillows</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-    <link rel="stylesheet" href="assets/css/app.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  </head>
-  <body>
-    <section class="hero is-primary is-fullheight">
-      <!-- Hero head: will stick at the top -->
-      <div class="hero-head">
-        <nav class="navbar">
-          <div class="container my-nav">
-            <div class="navbar-brand">
-              <a class="navbar-item">
-                <p class="my-logo">Dirty Pillows</p>
-              </a>
-              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dirty Pillows</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+<body id="top">
+  <section class="hero is-primary is-fullheight">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <nav class="navbar is-fixed-top">
+        <div class="container my-nav">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="#top">
+              <p class="my-logo">Dirty Pillows</p>
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
                 <span></span>
-                <span></span>
-                <span></span>
-              </span>
-            </div>
-            <div id="navbarMenuHeroA" class="navbar-menu">
-              <div class="navbar-end">
-                <a class="navbar-item">
+            <span></span>
+            <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item" href="#about">
                   About
                 </a>
-                <a class="navbar-item">
+              <a class="navbar-item" href="#listen">
                   Listen
                 </a>
-                <a class="navbar-item">
+              <!-- <a class="navbar-item" href="#shows">
                   Shows
+                </a> -->
+              <a class="navbar-item" href="#photos">
+                  Photos
                 </a>
-                <a class="navbar-item">
-                  Media
-                </a>
-              </div>
             </div>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
+    </div>
 
-      <!-- Hero content: will be in the middle -->
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title">
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">
             TURN IT<br>DOWN!
           </h1>
-          <h2 class="subtitle">
-            The Debut Album out April 14
+        <h2 class="subtitle">
+            The Debut Album out Now!
           </h2>
-        </div>
       </div>
+    </div>
 
-      <!-- Hero footer: will stick at the bottom -->
-      <!-- <div class="hero-foot">
+    <!-- Hero footer: will stick at the bottom -->
+    <!-- <div class="hero-foot">
         <nav class="tabs">
           <div class="container">
             <ul>
@@ -72,6 +76,151 @@
         </nav>
       </div> -->
 
-    </section>
-  </body>
+  </section>
+  <section class="section padding-top-64" id="about">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-3">
+
+        </div>
+        <div class="column is-6 about">
+          <h1 class="title has-text-centered">About Us</h1>
+          <p>DIRTY PILLOWS band, which originated in Stockton, California, is a prime example of genuine rock music. With sounds reminiscent of 50's rock and roll, 60's blues, and 90's grunge they are an ode to rock of the past, the music that inspires them and music that they love. Dirty Pillows' debut album Turn It Down is an eclectic mix of unfiltered, unadulterated indie rock, with something for every rock enthusiast. With sounds evoking everything from the Beatles to Nirvana, Turn It Down is truly an album with a sound for almost everyone.</p>
+          <p>Dirty Pillows formed in the Summer of 2017 when singer/guitarist William Sconce, bassist Andrew Hemans, and drummer Michael Samaniego, broke into the local indie-rock music scene in California's Central Valley. Venues range from local breweries, to county fairs, and even family weddings, the band has a set for any occasion. Dirty Pillows music has also been featured on Fox 40's Studio 40 as well as ABC 10's Sac and Co. You can check out their new album Turn It Down on Band Camp, Google Play, Spotify, or at one of their upcoming events. (Link to list of performances) </p>
+          <p>Dirty Pillows hopes to expand their fan base, list of venues, and move on to bigger gigs around the nation, while still bringing pure indie-rock to the local music scene. For booking inquires or more information on Dirty Pillows please <a href="#contact">contact</a> below.</p>
+        </div>
+        <div class="column is-3">
+
+        </div>
+      </div>
+      </div>
+  </section>
+
+  <section class="section padding-top-64" id="listen">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-3">
+
+        </div>
+        <div class="column is-6">
+          <h1 class="title has-text-centered">Listen</h1>
+          <iframe src="https://open.spotify.com/embed/album/31JGlSss9FznyEvvmqZjwW" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="column is-3">
+
+        </div>
+      </div>
+      </div>
+  </section>
+
+  <!-- <section class="section padding-top-64" id="shows">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-2">
+
+        </div>
+        <div class="column is-8">
+          <table class="table is-fullwidth">
+            <thead>
+              <tr>
+                <th>One</th>
+                <th>Two</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Three</td>
+                <td>Four</td>
+              </tr>
+              <tr>
+                <td>Five</td>
+                <td>Six</td>
+              </tr>
+              <tr>
+                <td>Seven</td>
+                <td>Eight</td>
+              </tr>
+              <tr>
+                <td>Nine</td>
+                <td>Ten</td>
+              </tr>
+              <tr>
+                <td>Eleven</td>
+                <td>Twelve</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="column is-2">
+
+        </div>
+      </div>
+      </div>
+  </section> -->
+
+  <section class="section padding-top-64" id="photos">
+    <div class="container">
+      <h1 class="title has-text-centered photos-title">Photos</h1>
+      <p class="has-text-centered photos-subtitle">all photos by <a href="https://www.instagram.com/da.nuh/">@da.nuh</a></p>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <div class="tile is-child box">
+            <img src="assets/images/dana-alhindi-2.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <div class="tile is-child box">
+            <img src="assets/images/dana-alhindi-1.jpg">
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <div class="tile is-child box">
+            <img src="assets/images/dana-alhindi-6.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <div class="tile is-child box">
+            <img src="assets/images/dana-alhindi-4.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <div class="tile is-child box">
+            <img src="assets/images/dana-alhindi-7.jpg">
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <div class="tile is-child box">
+            <img src="assets/images/dana-alhindi-8.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section padding-top-64" id="contact">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-3">
+
+        </div>
+        <div class="column is-6">
+          <h1 class="title has-text-centered">Contact Us</h1>
+        </div>
+        <div class="column is-3">
+
+        </div>
+      </div>
+      </div>
+  </section>
+
+
+
+  <script async type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
 </html>

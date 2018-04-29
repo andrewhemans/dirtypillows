@@ -1,9 +1,23 @@
+body {
+  /* background-color: #fef1da; */
+  background-color: #fef5e5;
+}
+
+a {
+  color: #D74F4D;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
 .hero.is-primary {
-  background-color: #fef1da;
+  background-color: transparent;
 }
 
 .hero-body {
-  margin: 4rem;
+  margin: 4.3rem;
   background-color: #D2EAF3;
   background-image: url(../images/hero.svg);
   background-position: 25% 20%;
@@ -51,4 +65,29 @@
 
 .my-logo {
   text-shadow: 2px 2px #fff;
+}
+
+.hero .navbar {
+    /* background-color: #fef1da; */
+    background-color: #fef5e5;
+}
+
+.about > p {
+  margin: 10px 0;
+}
+
+.padding-top-64 {
+  padding-top: 64px;
+}
+
+/* .title:not(:last-child).photos-title {
+    margin-bottom: 1.5rem;
+} */
+
+.photos-title {
+  margin-bottom: 0!important;
+}
+
+.photos-subtitle {
+  margin-bottom: 1.5rem;
 }
