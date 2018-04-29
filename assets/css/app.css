@@ -3,27 +3,6 @@ body {
   background-color: #fef5e5;
 }
 
-@font-face {
-    font-family: 'artbrushmedium';
-    src: url('../fonts/artbrush-webfont.woff2') format('woff2'),
-         url('../fonts/artbrush-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'single_sleeveregular';
-    src: url('../fonts/sing_14l-webfont.woff2') format('woff2'),
-         url('../fonts/sing_14l-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 a {
   color: #D74F4D;
   -webkit-transition: all 0.5s ease-in-out;
