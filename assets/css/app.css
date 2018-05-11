@@ -165,6 +165,9 @@ a.navbar-item:hover {
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px;
+  }
+
+  .card-title {
     position: relative;
     top: -74px;
   }
